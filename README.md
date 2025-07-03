@@ -1,1 +1,1 @@
-# FrontEnd-Clinic-Management-System-Html-Css-Js-
+# FrontEnd Stack Mini Projects
