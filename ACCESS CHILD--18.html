@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:last-child{
+            color: red;
+        }
+        ul li:nth-child(3){
+            color: skyblue;
+        }
+        .box{
+            height: 150px;
+            width: 150px;
+            margin-left: 50px;
+            background: #C70039;
+            box-shadow: 10px 20px 20px 20px rgba(41, 5, 112, 0.15);
+            border-radius:  10px 10px 10px 10px;
+        }
+        /* first 2 values -- vertical and :horizontal
+        last two values-- ber and shadow density */
+        /* .shadow{
+            box-shadow: 10px 10px 5px 0px rgb(2,3,4,0.15);
+            border-radius: 0px 10px 0px 10px;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>text 1</li>
+        <li>text 2</li>
+        <li>text 3</li>
+        <li>text 4</li>
+    </ul>
+    <div class="box shadow">
+    </div>
+</body>
+</html>
